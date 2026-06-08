@@ -17,12 +17,12 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL("https://alpenglowsauna.com"),
   title: {
-    default: "Alpenglow Sauna",
-    template: "%s | Alpenglow Sauna",
+    default: "Coming Soon! Airstream Sauna Company in Minturn, Colorado.",
+    template: "%s | Airstream Sauna Company",
   },
   description:
-    "Alpenglow Sauna is a Colorado sauna retreat experience with wood-fired warmth, cold plunge restoration, and launch updates at hello@alpenglowsauna.com.",
-  applicationName: "Alpenglow Sauna",
+    "Coming soon to Minturn, Colorado: Airstream Sauna Company with wood-fired sauna sessions, alpine views, and launch updates.",
+  applicationName: "Airstream Sauna Company",
   alternates: {
     canonical: "/",
   },
@@ -32,17 +32,17 @@ export const metadata: Metadata = {
     shortcut: "/alpenglow-logo.png",
   },
   openGraph: {
-    title: "Alpenglow Sauna",
+    title: "Coming Soon! Airstream Sauna Company in Minturn, Colorado.",
     description:
-      "Colorado sauna and cold plunge experiences inspired by alpine calm and restorative heat.",
+      "Wood-fired sauna sessions with alpine views are coming soon to Minturn, Colorado.",
     url: "/",
-    siteName: "Alpenglow Sauna",
+    siteName: "Airstream Sauna Company",
     images: [
       {
-        url: "/alpenglow-hero.png",
-        width: 1408,
-        height: 672,
-        alt: "Guests relaxing in a sauna with mountain views.",
+        url: "/airstream-hero.jpg",
+        width: 3024,
+        height: 4032,
+        alt: "A polished Airstream trailer in a mountain meadow near Minturn, Colorado.",
       },
     ],
     locale: "en_US",
@@ -50,10 +50,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Alpenglow Sauna",
+    title: "Coming Soon! Airstream Sauna Company in Minturn, Colorado.",
     description:
-      "Wood-fired warmth, mountain air, and restorative contrast therapy in Colorado.",
-    images: ["/alpenglow-hero.png"],
+      "Wood-fired sauna sessions with alpine views are coming soon to Minturn, Colorado.",
+    images: ["/airstream-hero.jpg"],
   },
 };
 

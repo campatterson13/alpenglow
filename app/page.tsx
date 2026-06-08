@@ -12,11 +12,11 @@ export default function Home() {
       <main>
         <section className="relative isolate flex min-h-[calc(100svh-13rem)] items-center overflow-hidden">
           <Image
-            src="/alpenglow-hero.png"
-            alt="Guests relaxing in a sauna with mountain views."
+            src="/airstream-hero.jpg"
+            alt="A polished Airstream trailer in a mountain meadow near Minturn, Colorado."
             fill
             priority
-            className="object-cover object-center"
+            className="object-cover object-[center_72%]"
             sizes="100vw"
           />
           <div className="hero-overlay absolute inset-0" />
@@ -25,14 +25,14 @@ export default function Home() {
           <div className="relative z-10 mx-auto flex w-full max-w-6xl justify-center px-6 py-24 text-center sm:px-10 lg:px-12">
             <div className="max-w-3xl space-y-6 text-primary-foreground">
               <p className="font-sans text-sm font-semibold uppercase tracking-[0.34em] text-primary-foreground/80 sm:text-base">
-                Colorado Sauna Retreat
+                Coming Soon in Minturn
               </p>
               <h1 className="text-balance font-sans text-5xl font-medium tracking-[-0.04em] sm:text-6xl lg:text-7xl">
-                Colorado&apos;s premier sauna and cold plunge escape
+                Coming Soon! Airstream Sauna Company in Minturn, Colorado.
               </h1>
               <p className="mx-auto max-w-2xl text-pretty font-sans text-lg leading-8 text-primary-foreground/78 sm:text-xl">
-                Wood-fired warmth, mountain air, and restorative contrast
-                therapy designed for a slower, stronger reset.
+                Wood-fired sauna sessions with alpine views are on the way.
+                Reach out for launch updates and opening details.
               </p>
               <div className="flex flex-col items-center justify-center gap-4 pt-4 sm:flex-row">
                 <Button
@@ -40,7 +40,7 @@ export default function Home() {
                   size="lg"
                   className="h-14 min-w-56 rounded-none bg-primary px-8 font-sans text-sm font-semibold uppercase tracking-[0.22em] text-primary-foreground shadow-[0_12px_30px_rgba(10,32,28,0.35)] hover:bg-primary/90"
                 >
-                  <Link href="/book">Book a Session</Link>
+                  <Link href="/contact">Contact Us</Link>
                 </Button>
                 <Button
                   asChild
